@@ -94,7 +94,7 @@ const Portfolio = () => {
       title: 'Heart Disease Prediction',
       description: 'A Machine Learning project that predicts the risk of heart disease based on medical attributes like blood pressure, cholesterol, and age.',
       image: 'images/heartdisease.jpg',
-      link: '#',
+      link: 'https://github.com/Devisridadi/heartdiseaseprediction',
       tech: ['Python', 'Pandas', 'Scikit-learn', 'Jupyter']
     },
     {
