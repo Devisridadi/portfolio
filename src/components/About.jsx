@@ -3,9 +3,9 @@ import profile from '../assets/profile.jpg';
 
 const About = () => {
   const stats = [
-    { label: 'Total Projects', value: 6 },
+    { label: 'Total Projects', value: 3 },
     { label: 'Certificates', value: 6 },
-    { label: 'Years of Experience', value: 1.5 }
+    { label: 'Years of Experience', value: 1 }
   ];
 
   return (
@@ -57,14 +57,22 @@ const About = () => {
                 Web Developer | AI Enthusiast | Creative Coder <br />
                 I'm a Computer Science student from VIIT, Duvvada, passionate about transforming ideas into real-world solutions using modern web technologies, machine learning, and data. I believe in learning by building and collaborating.
               </p>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="group relative overflow-hidden px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300"
+
+              {/* Download CV Button with Link */}
+              <a
+                href="https://drive.google.com/file/d/16nXIgFH23zjqrGGvH88PvX9gvFeFVaUY/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span className="relative z-10">Download CV</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </motion.button>
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="group relative overflow-hidden px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full text-white font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300"
+                >
+                  <span className="relative z-10">Download CV</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </motion.button>
+              </a>
             </motion.div>
 
             {/* Profile Circle */}
@@ -77,7 +85,6 @@ const About = () => {
             >
               <div className="aspect-square rounded-full relative w-96 h-96">
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 rounded-full animate-spin-slow blur-xl opacity-50"></div>
-
                 <div className="absolute inset-2 bg-gradient-to-br from-gray-900 to-black rounded-full p-4">
                   <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-purple-500/10 to-blue-500/10 flex items-center justify-center">
                     <img
