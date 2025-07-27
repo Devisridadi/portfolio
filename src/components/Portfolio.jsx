@@ -122,7 +122,7 @@ const Portfolio = () => {
         { name: 'CSS3', icon: <FaCss3Alt className="text-blue-500" /> },
         { name: 'JavaScript', icon: <FaJs className="text-yellow-400" /> },
         { name: 'React', icon: <FaReact className="text-blue-400" /> },
-        { name: 'Django-Rest', icon: <SiDjango className="text-green-700" /> }
+        { name: 'Django', icon: <SiDjango className="text-green-700" /> }
       ]
     },
     { 
