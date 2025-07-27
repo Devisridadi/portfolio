@@ -24,7 +24,7 @@ const Contact = () => {
     {
       label: 'Download CV',
       icon: <FaFileDownload size={28} />,
-      link: 'https://drive.google.com/file/d/your-resume-id/view?usp=sharing', // Replace with your actual file ID
+      link: 'https://drive.google.com/file/d/16nXIgFH23zjqrGGvH88PvX9gvFeFVaUY/view?usp=sharing', // Replace with your actual file ID
       description: 'Grab my latest resume.',
     }
   ];
